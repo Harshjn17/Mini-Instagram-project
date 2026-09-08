@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Page 1 - Create post */
+
+.post-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+
+    background: white;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.post-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.post-container input,
+.post-container textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+.post-container textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.post-container button {
+    padding: 12px;
+
+    border: none;
+    border-radius: 5px;
+
+    background: #3a822c;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.post-container button:hover {
+    background: #555;
+}
+
+/* feed */
+
+.postContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.postCard {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.postImage {
+    width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+}
+
+.postCaption {
+    margin: 0;
+    padding: 15px;
+
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
